@@ -1,35 +1,42 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"); */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+
+
 :root {
   --primary: #6948ff;
   --secondary: #553bcb;
   --darkgrey: #22262a;
+  --lightgrey: #d3d3d3;
   --grey: #808080;
 }
 
 body {
-  color: #3333;
+  color: #333;
 }
+
 ul {
   list-style: none;
 }
+
 a {
   text-decoration: none;
   columns: #fff;
 }
+
 .primary-color {
   color: var(--primary);
 }
+
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.button {
+
+button {
   width: 100%;
   padding: 8px 0;
   border-radius: 4px;
@@ -38,7 +45,8 @@ code {
   color: #fff;
   cursor: pointer;
 }
-.button:hover {
+
+button:hover {
   border: 1px solid var(--secondary);
   background-color: var(--secondary);
 }
