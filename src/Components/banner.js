@@ -11,7 +11,7 @@ import {
 
 const Banner = () => {
   return (
-    <div className="hero">
+    <div className="banner">
       <div className="container">
         <div className="content">
           <div className="col-1">
