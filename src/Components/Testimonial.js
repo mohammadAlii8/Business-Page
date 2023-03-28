@@ -10,12 +10,10 @@ const Testimonials = () => {
                     <div className='content'>
                         <i><FaDatabase /> Staxx</i>
                         <p className='body'>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Quisquam minus totam optio maiores, delectus deserunt rerum quae
-                            officiis inventore magni.
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است
                         </p>
                         <div className='name'>
-                            <p>Marie Chilvers</p>
+                            <p>گلکسی میرزاخانی</p>
                             <p>CEO, Staxx</p>
                         </div>
                     </div>

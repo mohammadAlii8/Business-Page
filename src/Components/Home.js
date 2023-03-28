@@ -3,12 +3,14 @@ import Banner from "./Banner";
 import "./HomeStyles.css";
 import Navbar from "./Navbar";
 import Pricing from "./Pricing";
+import Testimonials from "./Testimonial";
 const Home = () => {
   return (
     <div>
       <Navbar />
       <Banner />
-      <Pricing/>
+      <Pricing />
+      <Testimonials />
     </div>
   );
 };
