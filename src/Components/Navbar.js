@@ -26,17 +26,12 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/" className="nav-link">
+            <Link to="/pricing" className="nav-link">
               محصولات
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/" className="nav-link">
-              سرویس ها
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link to="/" className="nav-link">
+            <Link to="/faq" className="nav-link">
               ارتباط با ما
             </Link>
           </li>
